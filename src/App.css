@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.certificate{
+  height: 7in;
+  width: 11.69in;
+  
+}
+.bg-img1{
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  left: 9%;
+  top:20%;
+  z-index: 1;
+  opacity: 0.2;
+  
+}
+.bg-img2{
+  width: 320px;
+  position: absolute;
+  right: 9%;
+  top: 20%;
+  z-index: 1;
+  opacity: 0.5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.qr-code{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 8%;
+  top: 81.5%;
+  z-index: 1;
 }
